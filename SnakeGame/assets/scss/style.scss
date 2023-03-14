@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#snake-platform{
+    border: solid black 2px;
+    height: 360px;
+    width: 360px;
+    left: 40%;
+    right: 40%;
+    top: 300px;
+    
+    position: relative;
+    background-color: white;
+    overflow-block: auto;
+   
+   
+    #snake,img{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+    }
+   
+    
+}
+
+body{
+    background-image: url(../images/snakeChad.jpg);
+}
